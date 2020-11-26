@@ -1,1 +1,2 @@
-# DE2_Term_Project
+# DE2 Term Project | Suicide Rates
+
