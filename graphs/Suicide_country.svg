@@ -1,0 +1,1498 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1000"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     style="display: block;" class="colored nvd3-svg"
+     contentStyleType="text/css" height="800"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.0">
+    <style type="text/css" xml:space="preserve">.nvd3 .nv-axis line, .nvd3 .nv-axis path { fill: none; shape-rendering: crispedges; }
+.nv-brush .extent, .nvd3 .background path, .nvd3 .nv-axis line, .nvd3 .nv-axis path { shape-rendering: crispedges; }
+.nv-distx, .nv-disty, .nv-noninteractive, .nvd3 .nv-axis, .nvd3.nv-pie .nv-label, .nvd3.nv-sparklineplus g.nv-hoverValue { pointer-events: none; }
+.nvd3 .nv-axis { opacity: 1; }
+.nvd3 .nv-axis path { stroke: rgb(0, 0, 0); stroke-opacity: 0.75; }
+.nvd3 .nv-axis path.domain { stroke-opacity: 0.75; }
+.nvd3 .nv-axis.nv-x path.domain { stroke-opacity: 0; }
+.nvd3 .nv-axis line { stroke: rgb(229, 229, 229); }
+.nvd3 .nv-axis .zero line, .nvd3 .nv-axis line.zero { stroke-opacity: 0.75; }
+.nvd3 .nv-axis .nv-axisMaxMin text { font-weight: 700; }
+.nvd3 .nv-discretebar .nv-groups rect, .nvd3 .nv-multibar .nv-groups rect, .nvd3 .nv-multibarHorizontal .nv-groups rect { stroke-opacity: 0; transition: fill-opacity 250ms linear 0s; }
+.nvd3 .nv-discretebar .nv-groups text, .nvd3 .nv-multibarHorizontal .nv-groups text { font-weight: 700; fill: rgb(0, 0, 0); stroke: none; }
+.nvd3 text { font: 400 12px Arial, sans-serif; }
+.nvd3 .nv-legend .nv-series { cursor: pointer; }</style><style type="text/css"
+           xml:space="preserve">.knime-title { color: black; fill: black; font-size: 24px; }
+.knime-subtitle { color: black; fill: black; font-size: 12px; }
+.knime-label, .knime-axis-label, .knime-tick-label, .knime-label text, text.knime-axis-label, text.knime-tick-label { color: black; fill: black; font-size: 12px; }
+.knime-legend-label, text.knime-legend-label { color: black; fill: black; font-size: 12px; font-weight: normal; }</style><style type="text/css"
+           xml:space="preserve">svg.colored .nvd3 .nv-multibar .nv-groups rect, svg.colored .nvd3 .nv-multibarHorizontal .nv-groups rect, svg.colored .nvd3 .nv-discretebar .nv-groups rect { fill: inherit !important; stroke: inherit !important; }</style><text x="20"
+          y="30" id="title" class="knime-title">
+        Bar Chart
+    </text>
+    <text x="20" y="46" id="subtitle" class="knime-subtitle">
+        Total of Suicide by country
+    </text>
+    <g class="nvd3 nv-wrap nv-multiBarHorizontalChart"
+       transform="translate(158.046875,76)">
+        <g>
+            <g class="nv-x nv-axis nvd3-svg knime-axis knime-x">
+                <g class="nvd3 nv-wrap nv-axis knime-axis">
+                    <g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,5.054655870445344)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Albania
+                                <title class="knime-tooltip">
+                                    Albania
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,14.24493927125506)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Argentina
+                                <title class="knime-tooltip">
+                                    Argentina
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,23.435222672064775)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Armenia
+                                <title class="knime-tooltip">
+                                    Armenia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,32.62550607287449)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Australia
+                                <title class="knime-tooltip">
+                                    Australia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,41.815789473684205)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Austria
+                                <title class="knime-tooltip">
+                                    Austria
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,51.006072874493924)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Bahamas
+                                <title class="knime-tooltip">
+                                    Bahamas
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,60.196356275303636)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Bahrain
+                                <title class="knime-tooltip">
+                                    Bahrain
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,69.38663967611335)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Barbados
+                                <title class="knime-tooltip">
+                                    Barbados
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,78.57692307692307)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Belarus
+                                <title class="knime-tooltip">
+                                    Belarus
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,87.76720647773278)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Belgium
+                                <title class="knime-tooltip">
+                                    Belgium
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,96.9574898785425)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Brazil
+                                <title class="knime-tooltip">
+                                    Brazil
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,106.14777327935221)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Bulgaria
+                                <title class="knime-tooltip">
+                                    Bulgaria
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,115.33805668016193)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Canada
+                                <title class="knime-tooltip">
+                                    Canada
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,124.52834008097165)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Chile
+                                <title class="knime-tooltip">
+                                    Chile
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,133.71862348178135)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Colombia
+                                <title class="knime-tooltip">
+                                    Colombia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,142.90890688259108)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Costa Rica
+                                <title class="knime-tooltip">
+                                    Costa Rica
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,152.0991902834008)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Croatia
+                                <title class="knime-tooltip">
+                                    Croatia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,161.2894736842105)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Cuba
+                                <title class="knime-tooltip">
+                                    Cuba
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,170.47975708502022)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Cyprus
+                                <title class="knime-tooltip">
+                                    Cyprus
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,179.67004048582993)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Czech Republic
+                                <title class="knime-tooltip">
+                                    Czech Republic
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,188.86032388663966)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Denmark
+                                <title class="knime-tooltip">
+                                    Denmark
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,198.05060728744937)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Ecuador
+                                <title class="knime-tooltip">
+                                    Ecuador
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,207.24089068825907)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                El Salvador
+                                <title class="knime-tooltip">
+                                    El Salvador
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,216.4311740890688)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Estonia
+                                <title class="knime-tooltip">
+                                    Estonia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,225.6214574898785)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Finland
+                                <title class="knime-tooltip">
+                                    Finland
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,234.8117408906882)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                France
+                                <title class="knime-tooltip">
+                                    France
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,244.00202429149795)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Georgia
+                                <title class="knime-tooltip">
+                                    Georgia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,253.19230769230765)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Germany
+                                <title class="knime-tooltip">
+                                    Germany
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,262.38259109311736)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Greece
+                                <title class="knime-tooltip">
+                                    Greece
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,271.5728744939271)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Hungary
+                                <title class="knime-tooltip">
+                                    Hungary
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,280.7631578947368)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Iceland
+                                <title class="knime-tooltip">
+                                    Iceland
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,289.9534412955465)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Ireland
+                                <title class="knime-tooltip">
+                                    Ireland
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,299.14372469635623)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Israel
+                                <title class="knime-tooltip">
+                                    Israel
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,308.33400809716596)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Italy
+                                <title class="knime-tooltip">
+                                    Italy
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,317.52429149797564)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Jamaica
+                                <title class="knime-tooltip">
+                                    Jamaica
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,326.7145748987854)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Japan
+                                <title class="knime-tooltip">
+                                    Japan
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,335.9048582995951)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Kazakhstan
+                                <title class="knime-tooltip">
+                                    Kazakhstan
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,345.0951417004048)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Kuwait
+                                <title class="knime-tooltip">
+                                    Kuwait
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,354.2854251012145)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Kyrgyzstan
+                                <title class="knime-tooltip">
+                                    Kyrgyzstan
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,363.47570850202425)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Latvia
+                                <title class="knime-tooltip">
+                                    Latvia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,372.665991902834)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Lithuania
+                                <title class="knime-tooltip">
+                                    Lithuania
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,381.85627530364366)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Luxembourg
+                                <title class="knime-tooltip">
+                                    Luxembourg
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,391.0465587044534)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Maldives
+                                <title class="knime-tooltip">
+                                    Maldives
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,400.2368421052631)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Malta
+                                <title class="knime-tooltip">
+                                    Malta
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,409.4271255060728)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Mauritius
+                                <title class="knime-tooltip">
+                                    Mauritius
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,418.61740890688253)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Mexico
+                                <title class="knime-tooltip">
+                                    Mexico
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,427.80769230769226)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Netherlands
+                                <title class="knime-tooltip">
+                                    Netherlands
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,436.99797570850194)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                New Zealand
+                                <title class="knime-tooltip">
+                                    New Zealand
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,446.1882591093117)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Norway
+                                <title class="knime-tooltip">
+                                    Norway
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,455.3785425101214)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Oman
+                                <title class="knime-tooltip">
+                                    Oman
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,464.5688259109311)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Panama
+                                <title class="knime-tooltip">
+                                    Panama
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,473.7591093117408)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Paraguay
+                                <title class="knime-tooltip">
+                                    Paraguay
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,482.94939271255055)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Philippines
+                                <title class="knime-tooltip">
+                                    Philippines
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,492.1396761133602)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Poland
+                                <title class="knime-tooltip">
+                                    Poland
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,501.32995951416996)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Portugal
+                                <title class="knime-tooltip">
+                                    Portugal
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,510.5202429149797)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Qatar
+                                <title class="knime-tooltip">
+                                    Qatar
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,519.7105263157894)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Romania
+                                <title class="knime-tooltip">
+                                    Romania
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,528.9008097165992)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Russian Federation
+                                <title class="knime-tooltip">
+                                    Russian Federation
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,538.0910931174088)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Serbia
+                                <title class="knime-tooltip">
+                                    Serbia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,547.2813765182185)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Singapore
+                                <title class="knime-tooltip">
+                                    Singapore
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,556.4716599190283)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Slovakia
+                                <title class="knime-tooltip">
+                                    Slovakia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,565.661943319838)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Slovenia
+                                <title class="knime-tooltip">
+                                    Slovenia
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,574.8522267206476)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                South Africa
+                                <title class="knime-tooltip">
+                                    South Africa
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,584.0425101214574)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Spain
+                                <title class="knime-tooltip">
+                                    Spain
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,593.2327935222671)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Suriname
+                                <title class="knime-tooltip">
+                                    Suriname
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,602.4230769230768)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Sweden
+                                <title class="knime-tooltip">
+                                    Sweden
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,611.6133603238866)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Switzerland
+                                <title class="knime-tooltip">
+                                    Switzerland
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,620.8036437246963)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Thailand
+                                <title class="knime-tooltip">
+                                    Thailand
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,629.9939271255059)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Turkey
+                                <title class="knime-tooltip">
+                                    Turkey
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,639.1842105263157)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Ukraine
+                                <title class="knime-tooltip">
+                                    Ukraine
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,648.3744939271254)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                United Arab Emirates
+                                <title class="knime-tooltip">
+                                    United Arab Emirates
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,657.5647773279351)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                United Kingdom
+                                <title class="knime-tooltip">
+                                    United Kingdom
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,666.7550607287449)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Uruguay
+                                <title class="knime-tooltip">
+                                    Uruguay
+                                </title>
+                            </text>
+                        </g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,675.9453441295545)">
+                            <line class="knime-tick-line" y2="0" x2="829.7375"/>
+                            <text x="-15" dy=".32em" y="0"
+                                  style="text-anchor: end; pointer-events: all;"
+                                  class="knime-tick-label">
+                                Uzbekistan
+                                <title class="knime-tooltip">
+                                    Uzbekistan
+                                </title>
+                            </text>
+                        </g>
+                        <path class="domain knime-axis-line" d="M0,0H0V681H0"/>
+                        <text x="-335.9048582995951" y="-154.046875"
+                              style="text-anchor: middle; pointer-events: all;"
+                              class="nv-axislabel knime-axis-label"
+                              transform="rotate(-90)">
+                            Country
+                            <title class="knime-tooltip">
+                                Country
+                            </title>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-y nv-axis nvd3-svg knime-axis knime-y"
+               transform="translate(0,681)">
+                <g class="nv-zeroLine">
+                    <line y2="-681" x1="0" x2="0" y1="0"/>
+                </g>
+                <g class="nvd3 nv-wrap nv-axis knime-axis">
+                    <g>
+                        <g class="tick zero knime-tick" style="opacity: 1;"
+                           transform="translate(0,0)">
+                            <line y2="-681" class="knime-tick-line" x2="0"/>
+                        </g>
+                        <g class="tick knime-tick" style="opacity: 1;"
+                           transform="translate(195.09463907829766,0)">
+                            <line y2="-681" class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="3"
+                                  style="text-anchor: middle; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                100
+                            </text>
+                        </g>
+                        <g class="tick knime-tick" style="opacity: 1;"
+                           transform="translate(390.1892781565953,0)">
+                            <line y2="-681" class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="3"
+                                  style="text-anchor: middle; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                200
+                            </text>
+                        </g>
+                        <g class="tick knime-tick" style="opacity: 1;"
+                           transform="translate(585.283917234893,0)">
+                            <line y2="-681" class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="3"
+                                  style="text-anchor: middle; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                300
+                            </text>
+                        </g>
+                        <g class="tick knime-tick" style="opacity: 1;"
+                           transform="translate(780.3785563131906,0)">
+                            <line y2="-681" class="knime-tick-line" x2="0"/>
+                            <text x="0" dy=".71em" y="3"
+                                  style="text-anchor: middle; pointer-events: all;"
+                                  class="knime-tick-label"
+                                  transform="translate(0,0)">
+                                400
+                            </text>
+                        </g>
+                        <path class="domain knime-axis-line"
+                              d="M0,0V0H829.7375V0"/>
+                        <text x="414.86875" y="30" style="pointer-events: all;"
+                              class="nv-axislabel knime-axis-label"
+                              text-anchor="middle">
+                            Total of suicide
+                            <title class="knime-tooltip">
+                                Total of suicide
+                            </title>
+                        </text>
+                    </g>
+                    <g class="nv-axisMaxMin nv-axisMaxMin-x nv-axisMin-x knime-axis-max-min"
+                       transform="translate(0,0)">
+                        <text dy=".71em" y="3"
+                              style="text-anchor: middle; pointer-events: all;"
+                              class="knime-tick-label" transform="">
+                            0
+                        </text>
+                    </g>
+                    <g class="nv-axisMaxMin nv-axisMaxMin-x nv-axisMax-x knime-axis-max-min"
+                       transform="translate(829.7375,0)">
+                        <text dy=".71em" y="3"
+                              style="text-anchor: middle; pointer-events: all;"
+                              class="knime-tick-label" transform="">
+                            425.3
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-barsWrap nvd3-svg">
+                <g class="nvd3 nv-wrap nv-multibarHorizontal"
+                   transform="translate(0,0)">
+                    <defs/>
+                    <g>
+                        <g class="nv-groups">
+                            <g class="nv-group nv-series-0"
+                               style="stroke-opacity: 1; fill-opacity: 0.75; fill: rgb(31, 119, 180); stroke: rgb(31, 119, 180);">
+                                <g class="nv-bar positive"
+                                   transform="translate(0,0.9190283400809716)">
+                                    <rect width="81.2764266400188"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,10.109311740890687)">
+                                    <rect width="217.0232765106983"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,19.2995951417004)">
+                                    <rect width="78.83774365154007"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,28.489878542510116)">
+                                    <rect width="258.77352927345396"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,37.68016194331983)">
+                                    <rect width="404.91892340700673"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,46.87044534412955)">
+                                    <rect width="113.77919351046319"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,56.06072874493926)">
+                                    <rect width="23.19675258640959"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,65.25101214574897)">
+                                    <rect width="14.866211497766281"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,74.44129554655869)">
+                                    <rect width="647.6751828121326"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,83.63157894736841)">
+                                    <rect width="429.5593763225958"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,92.82186234817813)">
+                                    <rect width="141.89233100164589"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,102.01214574898783)">
+                                    <rect width="308.73726634140604"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,111.20242914979755)">
+                                    <rect width="258.83205766517744"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,120.39271255060727)">
+                                    <rect width="317.77014813073123"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,129.582995951417)">
+                                    <rect width="131.18163531624737"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,138.77327935222672)">
+                                    <rect width="164.56232806254408"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,147.96356275303643)">
+                                    <rect width="472.0704981777568"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,157.15384615384613)">
+                                    <rect width="394.344793968963"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,166.34412955465586)">
+                                    <rect width="114.87172348930166"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,175.53441295546557)">
+                                    <rect width="342.6252051493063"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,184.7246963562753)">
+                                    <rect width="253.66204972960261"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,193.914979757085)">
+                                    <rect width="158.98262138490475"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,203.1052631578947)">
+                                    <rect width="191.03667058546904"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,212.29554655870444)">
+                                    <rect width="446.9032897366565"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,221.48582995951415)">
+                                    <rect width="419.86317276040444"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,230.67611336032385)">
+                                    <rect width="411.9813493416412"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,239.8663967611336)">
+                                    <rect width="66.97598959557958"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,249.0566801619433)">
+                                    <rect width="296.87551228544555"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,258.24696356275297)">
+                                    <rect width="77.84276099224077"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,267.4372469635627)">
+                                    <rect width="626.8585848224781"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,276.62753036437243)">
+                                    <rect width="359.50089142957904"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,285.8178137651821)">
+                                    <rect width="234.69885081119207"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,295.00809716599184)">
+                                    <rect width="194.06063749118272"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,304.1983805668016)">
+                                    <rect width="157.577939983541"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,313.38866396761125)">
+                                    <rect width="2.2630978133082533"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,322.578947368421)">
+                                    <rect width="498.4277839172349"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,331.7692307692307)">
+                                    <rect width="625.8831116270867"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,340.9595141700404)">
+                                    <rect width="19.587501763461084"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,350.1497975708501)">
+                                    <rect width="279.37552316012227"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,359.34008097165986)">
+                                    <rect width="505.9584369856572"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,368.5303643724696)">
+                                    <rect width="771.0920514930638"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,377.72064777327927)">
+                                    <rect width="275.395592522925"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,386.910931174089)">
+                                    <rect width="3.8823833176581233"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,396.10121457489873)">
+                                    <rect width="160.1922081471902"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,405.2914979757084)">
+                                    <rect width="218.17433488126028"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,414.48178137651814)">
+                                    <rect width="119.02723930166938"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,423.6720647773279)">
+                                    <rect width="213.60912032682816"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,432.86234817813755)">
+                                    <rect width="297.7534381612979"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,442.0526315789473)">
+                                    <rect width="266.1676160945214"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,451.242914979757)">
+                                    <rect width="7.413596284975312"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,460.4331983805667)">
+                                    <rect width="124.86056901011051"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,469.6234817813764)">
+                                    <rect width="106.44363508111921"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,478.81376518218616)">
+                                    <rect width="72.1069786033388"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,488.00404858299584)">
+                                    <rect width="371.9284199388666"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,497.19433198380557)">
+                                    <rect width="290.37886080413824"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,506.3846153846153)">
+                                    <rect width="25.03064219374559"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,515.574898785425)">
+                                    <rect width="292.7199964730778"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,524.7651821862348)">
+                                    <rect width="622.761597401834"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,533.9554655870445)">
+                                    <rect width="457.4579097107924"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,543.1457489878542)">
+                                    <rect width="252.12080208088403"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,552.336032388664)">
+                                    <rect width="280.3119774276981"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,561.5263157894736)">
+                                    <rect width="518.1518519280507"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,570.7165991902833)">
+                                    <rect width="25.537888255349163"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,579.9068825910931)">
+                                    <rect width="170.59075241006346"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,589.0971659919028)">
+                                    <rect width="829.7375"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,598.2874493927125)">
+                                    <rect width="285.89168410533745"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,607.4777327935223)">
+                                    <rect width="313.1659146484834"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,616.6680161943319)">
+                                    <rect width="157.05118445802964"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,625.8582995951416)">
+                                    <rect width="61.825491123912535"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,635.0485829959514)">
+                                    <rect width="513.2354670232776"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,644.2388663967611)">
+                                    <rect width="44.3059925346814"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,653.4291497975707)">
+                                    <rect width="151.02276011051023"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,662.6194331983805)">
+                                    <rect width="502.23212937926166"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                                <g class="nv-bar positive"
+                                   transform="translate(0,671.8097165991902)">
+                                    <rect width="123.3583402892076"
+                                          height="8.271255060728745"/>
+                                    <text/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-legendWrap nvd3-svg knime-legend"
+               transform="translate(0,-76)">
+                <g class="nvd3 nv-legend" transform="translate(0,28)">
+                    <g transform="translate(715.01484375,28)">
+                        <g class="nv-series" transform="translate(0,5)">
+                            <circle class="nv-legend-symbol knime-legend-symbol"
+                                    r="5"
+                                    style="stroke-width: 2; fill: rgb(31, 119, 180); fill-opacity: 1; stroke: rgb(31, 119, 180);"/>
+                            <text dx="8" fill="#000" dy=".32em"
+                                  class="nv-legend-text knime-legend-label"
+                                  text-anchor="start">
+                                suicides_p100k
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g class="nv-controlsWrap"/>
+        </g>
+    </g>
+</svg>

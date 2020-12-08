@@ -1,0 +1,31 @@
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : Operation failed with the following error: 0x800106ba
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-12-08 15:12:40,590 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-12-08 15:13:20,571 : WARN  : Worker-4: Downloading statistics for node recommendations. :  : WorkflowCoachView :  :  : Could not update node recommendations statistics.
+java.io.IOException: Downloaded file doesn't contain node recommendation data.
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.checkDownloadedFile(AbstractFileDownloadTripleProvider.java:190)
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
+	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-12-08 15:14:21,091 : WARN  : ModalContext :  : Node : MySQL Connector : 0:4 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2020-12-08 15:14:23,356 : WARN  : ModalContext :  : WorkflowManager :  :  : Workflow contains nodes with duplicate parameter name (will be made unique by appending node IDs): "y-selection", "string-input", "x-selection", "color-selection"
+2020-12-08 15:14:23,370 : WARN  : ModalContext :  : WorkflowManager :  :  : Workflow contains nodes with duplicate parameter name (will be made unique by appending node IDs): "json-output"
+2020-12-08 15:59:33,365 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMServiceEnabled did not terminate successfully.
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-MpComputerStatus : Operation failed with the following error: 0x800106ba
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : At line:1 char:1
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-MpComputerStatus -ErrorAction Stop | select -ExpandProperty AMSer ...
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : NotSpecified: (MSFT_MpComputerStatus:ROOT\Microsoft\...pComputerStatus) [Get-MpComputerS 
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    tatus], CimException
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : HRESULT 0x800106ba,Get-MpComputerStatus
+2020-12-08 15:59:33,373 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2020-12-08 15:59:56,621 : WARN  : ModalContext :  : Node : MySQL Connector : 0:4 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2020-12-08 15:59:58,187 : WARN  : ModalContext :  : WorkflowManager :  :  : Workflow contains nodes with duplicate parameter name (will be made unique by appending node IDs): "json-output"

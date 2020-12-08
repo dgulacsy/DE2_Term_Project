@@ -1,0 +1,23 @@
+
+{
+    "version": "4.2.2.v202009250802",
+    "created": "2020-12-08 15:13",
+    "nodestats": {
+        "nodes": [
+        ],
+        "metaNodes": {
+        },
+        "wrappedNodes": {
+        }
+    },
+    "uptime": 216186,
+    "workflowsOpened": 0,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 2,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 189696,
+    "crashes": 0,
+    "properlyShutDown": true
+}
