@@ -1,8 +1,0 @@
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\lnSuicide_lnGDPPC.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\Suicide_age_range.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\Suicide_country.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\suicided_alcohol_male.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\smoking_suicide_female.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\UER_suicide_male_.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\suicided_alcohol_male22.svg
-C:\Users\mbrae\OneDrive\Bureau\CEU\DE2\visuals\Smoking_suicide_male.svg
