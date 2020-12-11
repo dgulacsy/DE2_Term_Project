@@ -1,0 +1,1056 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="800px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     style="height: 600px;" contentStyleType="text/css" id="chart_svg"
+     height="600px" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.0">
+    <defs>
+        <g>
+            <g>
+                <clipPath id="clip-1">
+                    <rect x="48.953125" width="747.046875" y="52.0625"
+                          height="507.90625"/>
+                </clipPath>
+            </g>
+        </g>
+    </defs>
+    <g>
+        <g>
+            <rect fill="rgb(255,255,255)" x="0" width="800" y="0" height="600"/>
+            <rect fill="rgb(255,255,255)" x="48.953125" width="747.046875"
+                  y="52.0625" height="507.90625"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="57.000" x2="57.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="56.971" x2="56.971" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="56.971" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                -1
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="81.000" x2="81.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="80.552" x2="80.552" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="80.552" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="104.000" x2="104.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="104.133" x2="104.133" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="104.133" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                1
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="128.000" x2="128.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="127.714" x2="127.714" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="127.714" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                2
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="151.000" x2="151.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="151.295" x2="151.295" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="151.295" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                3
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="175.000" x2="175.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="174.876" x2="174.876" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="174.876" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                4
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="198.000" x2="198.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="198.457" x2="198.457" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="198.457" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="222.000" x2="222.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="222.038" x2="222.038" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="222.038" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                6
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="246.000" x2="246.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="245.619" x2="245.619" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="245.619" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                7
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="269.000" x2="269.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="269.200" x2="269.200" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="269.200" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                8
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="293.000" x2="293.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="292.781" x2="292.781" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="292.781" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                9
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="316.000" x2="316.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="316.362" x2="316.362" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="316.362" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                10
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="340.000" x2="340.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="339.943" x2="339.943" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="339.943" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                11
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="364.000" x2="364.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="363.524" x2="363.524" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="363.524" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                12
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="387.000" x2="387.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="387.105" x2="387.105" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="387.105" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                13
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="411.000" x2="411.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="410.686" x2="410.686" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="410.686" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                14
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="434.000" x2="434.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="434.267" x2="434.267" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="434.267" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                15
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="458.000" x2="458.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="457.848" x2="457.848" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="457.848" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                16
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="481.000" x2="481.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="481.429" x2="481.429" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="481.429" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                17
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="505.000" x2="505.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="505.010" x2="505.010" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="505.010" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                18
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="529.000" x2="529.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="528.591" x2="528.591" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="528.591" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                19
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="552.000" x2="552.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="552.172" x2="552.172" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="552.172" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                20
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="576.000" x2="576.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="575.753" x2="575.753" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="575.753" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                21
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="599.000" x2="599.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="599.334" x2="599.334" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="599.334" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                22
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="623.000" x2="623.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="622.915" x2="622.915" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="622.915" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                23
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="646.000" x2="646.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="646.496" x2="646.496" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="646.496" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                24
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="670.000" x2="670.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="670.077" x2="670.077" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="670.077" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                25
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="694.000" x2="694.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="693.658" x2="693.658" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="693.658" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                26
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="717.000" x2="717.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="717.239" x2="717.239" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="717.239" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                27
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="741.000" x2="741.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="740.820" x2="740.820" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="740.820" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                28
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="764.000" x2="764.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="764.401" x2="764.401" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="764.401" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                29
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="788.000" x2="788.000" y1="52.063" y2="559.969"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="787.982" x2="787.982" y1="559.969" y2="561.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="787.982" fill="rgb(0,0,0)" y="574.969"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                30
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="559.969" y2="559.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="422.477" fill="rgb(0,0,0)" y="590.969"
+                  style="font-family: sans-serif; font-weight: bold; font-style: normal; font-size: 12px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="middle">
+                Alocohol consumption (ln)
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="559.000" y2="559.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="559.463" y2="559.463"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="564.963"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                -0.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="537.000" y2="537.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="536.882" y2="536.882"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="542.382"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                0.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="514.000" y2="514.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="514.302" y2="514.302"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="519.802"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                0.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="492.000" y2="492.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="491.721" y2="491.721"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="497.221"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                1.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="469.000" y2="469.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="469.141" y2="469.141"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="474.641"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                1.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="447.000" y2="447.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="446.560" y2="446.560"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="452.060"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                2.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="424.000" y2="424.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="423.980" y2="423.980"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="429.480"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                2.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="401.000" y2="401.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="401.399" y2="401.399"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="406.899"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                3.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="379.000" y2="379.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="378.819" y2="378.819"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="384.319"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                3.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="356.000" y2="356.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="356.238" y2="356.238"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="361.738"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                4.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="334.000" y2="334.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="333.658" y2="333.658"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="339.158"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                4.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="311.000" y2="311.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="311.077" y2="311.077"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="316.577"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                5.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="288.000" y2="288.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="288.497" y2="288.497"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="293.997"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                5.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="266.000" y2="266.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="265.916" y2="265.916"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="271.416"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                6.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="243.000" y2="243.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="243.336" y2="243.336"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="248.836"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                6.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="221.000" y2="221.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="220.755" y2="220.755"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="226.255"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                7.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="198.000" y2="198.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="198.175" y2="198.175"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="203.675"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                7.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="176.000" y2="176.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="175.594" y2="175.594"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="181.094"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                8.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="153.000" y2="153.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="153.014" y2="153.014"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="158.514"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                8.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="130.000" y2="130.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="130.433" y2="130.433"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="135.933"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                9.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="108.000" y2="108.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="107.853" y2="107.853"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="113.353"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                9.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="85.000" y2="85.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="85.272" y2="85.272"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="90.772"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                10.0
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="796.000" y1="63.000" y2="63.000"
+                  style="stroke-width: 1; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(230,230,230)"/>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="46.953" x2="48.953" y1="62.692" y2="62.692"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="44.953" fill="rgb(0,0,0)" y="68.192"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 11px"
+                  transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  text-anchor="end">
+                10.5
+            </text>
+            <line transform="matrix(1.000,0.000,0.000,1.000,0.000,0.000)"
+                  x1="48.953" x2="48.953" y1="52.063" y2="559.969"
+                  style="stroke-width: 0.5; stroke-linecap: round; stroke-linejoin: round; "
+                  stroke="rgb(100,100,100)"/>
+            <text x="0.000" fill="rgb(0,0,0)" y="0.000"
+                  style="font-family: sans-serif; font-weight: bold; font-style: normal; font-size: 12px"
+                  transform="matrix(0.000,-1.000,1.000,0.000,19.531,306.016)"
+                  text-anchor="middle">
+                Total of suicide (ln)
+            </text>
+            <g class="dataArea" clip-path="url(#clip-1)">
+                <rect fill="rgb(0, 0, 0)" x="48.953125" width="747.046875"
+                      y="52.0625" height="507.90625" fill-opacity="0"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="387.1050248579545" cy="351.23100816210376"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="436.6251775568182" cy="185.81895469840254"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="311.64574455492425" cy="356.73567182918333"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="538.0235854640151" cy="196.72561706094382"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="530.949277935606" cy="226.2966690091484"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="247.9769767992424" cy="455.9644879561537"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="144.22046638257575" cy="414.5839001501423"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="410.68604995265144" cy="487.2676942092421"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="762.0433238636363" cy="192.0861150947282"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="507.3682528409091" cy="208.1409268373772"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="434.2670750473484" cy="134.80162846910656"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="547.455995501894" cy="244.44521210859767"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="469.6386126893939" cy="175.59362238636726"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="436.6251775568182" cy="203.1900521949163"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="283.3485144412878" cy="200.69253473207516"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="269.19989938446963" cy="284.3876486880206"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="521.516867897727" cy="249.21112867640875"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="280.99041193181813" cy="215.60886966249194"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="493.2196377840908" cy="383.2806938970539"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="608.766660748106" cy="215.02472595911803"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="486.1453302556817" cy="265.7406759596869"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="306.9295395359848" cy="243.82324539367602"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="222.03784919507575" cy="278.69552615887994"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="568.6789180871211" cy="302.11287960298483"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="552.1722005208333" cy="239.8822887976549"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="542.7397904829545" cy="133.0849612459886"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="519.1587653882575" cy="330.75166294379994"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="566.3208155776515" cy="134.10106640052675"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="479.0710227272727" cy="274.17565904609626"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="554.530303030303" cy="194.94692902662052"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="358.80779474431813" cy="375.0468736395801"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="533.3073804450758" cy="267.9106474143235"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="196.0987215909091" cy="266.984235843468"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="354.09158972537875" cy="173.41979823289103"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="240.90266927083331" cy="487.2676942092421"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="363.5239997632576" cy="87.63224630004152"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="460.2062026515151" cy="175.8519028774807"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="82.90980113636364" cy="389.74326829554786"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="493.2196377840908" cy="266.86975927919156"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="542.7397904829545" cy="269.0960430382913"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="667.7192234848485" cy="233.39037139325774"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="533.3073804450758" cy="367.02261747242324"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="160.72718394886363" cy="536.8821022727273"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="347.0172821969697" cy="384.8117212086651"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="236.1864642518939" cy="341.3019386650568"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="347.0172821969697" cy="162.79138618838687"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="467.2805101799242" cy="219.52168906206612"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="507.3682528409091" cy="267.7938013454529"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="413.0441524621212" cy="268.14525043762313"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="106.49082623106062" cy="421.0464745486363"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="382.3888198390152" cy="317.0594742364481"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="403.61174242424244" cy="307.6822769481854"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="365.8821022727273" cy="202.88406347601443"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="521.516867897727" cy="147.79363291179823"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="596.9761482007575" cy="233.1188072531072"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="130.07185132575756" cy="363.97690311056203"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="655.9287109374999" cy="187.22763612104956"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="696.0164535984849" cy="75.14914772727275"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="533.3073804450758" cy="229.52899925814597"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="165.443388967803" cy="298.2874420965565"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="535.6654829545455" cy="252.83238049448408"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="514.442560369318" cy="274.17565904609626"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="514.442560369318" cy="279.4444816395595"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="479.0710227272727" cy="184.12230554313163"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="330.5105646306818" cy="331.7024555444682"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="436.6251775568182" cy="232.90272559481843"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="502.65204782196963" cy="239.50646709680797"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="389.46312736742425" cy="176.6357272162238"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="177.2339015151515" cy="218.68792420355106"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="641.7800958806819" cy="133.86593093354577"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="170.1595939867424" cy="334.17088304316616"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="542.7397904829545" cy="172.04062129073856"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="438.9832800662879" cy="263.99087915379374"
+                        stroke="rgb(0,0,0)"/>
+                <circle fill="rgb(64,64,64)" r="3" stroke-width="0.2"
+                        cx="212.60543915719697" cy="224.42704291823804"
+                        stroke="rgb(0,0,0)"/>
+            </g>
+            <rect fill="rgb(255,255,255)" x="0" width="533.609375" y="0"
+                  height="30.5625" fill-opacity="0.001"/>
+            <text x="2"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 24px"
+                  y="23.78125">
+                Total of suicide per alcohol consumption (ln scale)
+            </text>
+            <rect fill="rgb(255,255,255)" x="0" width="533.609375" y="30.5625"
+                  height="17.5" fill-opacity="0.001"/>
+            <text x="2"
+                  style="font-family: sans-serif; font-weight: normal; font-style: normal; font-size: 12px"
+                  y="43.6325">
+                Male
+            </text>
+        </g>
+    </g>
+    <g visibility="hidden" id="hiddenGroup"/>
+</svg>
