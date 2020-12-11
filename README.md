@@ -5,3 +5,5 @@ This repository contains a collaborative work of Julianna Szabo, Maeva Braeckeve
 ## Global Data Flow Outline
 
 [<img src="https://github.com/dgulacsy/DE2_Term_Project/blob/main/visuals/gdfo.png">](https://dgulacsy.github.io/DE2_Term_Project/visuals/gdfo.html)
+
+[Download Documentation](https://github.com/dgulacsy/DE2_Term_Project/raw/main/DE2_Term_Project_Documentation.pdf){: .btn}
